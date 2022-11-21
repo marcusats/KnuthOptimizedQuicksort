@@ -27,7 +27,7 @@ int Partition(int a[], int low, int high){
 int Partition_r(int a[], int low, int high)
 {
 
-    srand(time(NULL));
+    srand(0);
     int random = low + rand() % (high - low);
   
     
